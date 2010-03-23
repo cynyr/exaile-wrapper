@@ -1,3 +1,8 @@
 A simple wrapper to start Exaile if it is not being advertised on DBUS.
 It will then call exaile with what ever options are passed in and display
 the output of stdout/stderr to stdout.
+
+This has been obsoleted by the --start-anyway switch in "trunk/2934" per
+bug https://bugs.launchpad.net/exaile/+bug/530337
+
+--start-anyway implemented trunk/2934
